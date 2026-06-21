@@ -31,9 +31,8 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHAT_ID = "7391248864"
 
 # Хизмат кўрсатиш ҳаволаси (ўзингизнинг username'ингизни ёзиб қўйишингиз мумкин)
-ADMIN_USERNAME = "username_shu_yerga"  
-ADMIN_CONTACT_LINK = f"https://t.me/{ADMIN_USERNAME}"
-
+ADMIN_USERNAME = "Behruzik_011"
+CONTACT_LINK = "https://t.me/Behruzik_011"
 PRODUCTS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "products.json")
 
 bot = Bot(token=BOT_TOKEN)
